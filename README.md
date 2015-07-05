@@ -1,11 +1,23 @@
 rLTP
 ====
 
+[![Build Status](https://travis-ci.org/hetong007/rLTP.svg?branch=master)](https://travis-ci.org/hetong007/rLTP)
+
 An r package for ltp-cloud service. To get a valid **API_Key** please register on [ltp-cloud](http://www.ltp-cloud.com/) and visit [Dashboard](http://www.ltp-cloud.com/dashboard).
+
+Another package of mine for NLP online service interface is [pullword](https://github.com/hetong007/pullword).
 
 I borrowed some pieces of codes from [tmcn](https://r-forge.r-project.org/R/?group_id=1571) to do encoding conversion.
 
 ## Installation:
+
+It is on CRAN now. Install the stable version by
+
+```{r}
+install.packages('rLTP')
+```
+
+For up-to-date version please run
 
 ```{r}
 require(devtools)
